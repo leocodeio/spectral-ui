@@ -1,6 +1,6 @@
 {
-  "buildCommand": "pnpm build",
-  "devCommand": "cd app/db && npx prisma generate && cd ../.. && pnpm dev",
+  "buildCommand": "pnpm exec prisma generate --schema=./app/db/prisma/schema.prisma && pnpm build",
+  "devCommand": "pnpm dev",
   "installCommand": "pnpm install",
   "framework": "remix",
   "outputDirectory": "build/client",

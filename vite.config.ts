@@ -32,8 +32,8 @@ export default defineConfig({
     },
   },
   ssr: {
-    noExternal: true, // Bundle everything for serverless
-    external: ["fsevents"], // Only exclude platform-specific modules
+    noExternal: true,
+    external: [".prisma/client", "@prisma/client", "fsevents"],
   },
   /* shadcn */
   resolve: {
