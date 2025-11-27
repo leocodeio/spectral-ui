@@ -23,20 +23,6 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
-  build: {
-    sourcemap: true,
-    rollupOptions: {
-      external: [".prisma/client/default"],
-    },
-  },
-  ssr: {
-    noExternal: ["@spectral/db"],
-    external: ["@prisma/client"],
-  },
-  optimizeDeps: {
-    include: ["@spectral/db"],
-    exclude: ["@prisma/client"],
-  },
   /* shadcn */
   resolve: {
     alias: {
