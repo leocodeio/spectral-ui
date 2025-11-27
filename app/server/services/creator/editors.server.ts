@@ -4,7 +4,7 @@ import { getAccessToken } from "../auth/db.server";
 import {
   xDomainCreatorEditorMap,
   xCreatorEditorMapStatusType,
-} from "@spectral/types";
+} from "~/../../types";
 
 const creatorEndpoints = {
   searchCreatorEditorMap: {

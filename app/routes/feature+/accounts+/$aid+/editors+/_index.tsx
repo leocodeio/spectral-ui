@@ -24,7 +24,7 @@ import { toast } from "~/hooks/use-toast";
 import {
   xDomainAccountEditorMap,
   xDomainCreatorEditorMap,
-} from "@spectral/types";
+} from "~/../../types";
 
 // loader
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {

@@ -19,7 +19,7 @@ import {
 import type {
   xDomainContribute,
   xDomainContributionVersion,
-} from "@spectral/types";
+} from "~/../../types";
 import { ArrowLeft, Eye, Clock, Calendar } from "lucide-react";
 
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {

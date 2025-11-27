@@ -25,7 +25,7 @@ import { updateVersionStatus } from "~/server/services/creator/contribute.server
 import type {
   xDomainContributionVersion,
   xDomainVersionComment,
-} from "@spectral/types";
+} from "~/../../types";
 import {
   ArrowLeft,
   CheckCircle2,

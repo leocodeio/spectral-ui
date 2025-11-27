@@ -5,7 +5,7 @@
 import { LoaderFunctionArgs } from "@remix-run/node";
 import { getSession } from "~/server/services/auth/db.server";
 import { getCreators } from "~/server/services/editor/creators.server";
-import { xDomainCreatorEditorMap } from "@spectral/types";
+import { xDomainCreatorEditorMap } from "~/../../types";
 
 export const loader = async ({ request }: LoaderFunctionArgs) => {
   const session = await getSession(request);

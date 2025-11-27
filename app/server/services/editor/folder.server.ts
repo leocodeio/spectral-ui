@@ -5,7 +5,7 @@
 import { ActionResult } from "~/types/action-result";
 import { makeApiRequest } from "../common/common.server";
 import { getAccessToken, getSession } from "../auth/db.server";
-import { xDomainFolders, xDomainFolderItem } from "@spectral/types";
+import { xDomainFolders, xDomainFolderItem } from "~/../../types";
 
 const editorFolderEndpoints = {
   getFoldersByEditor: {

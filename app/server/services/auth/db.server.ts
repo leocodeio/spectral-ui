@@ -9,7 +9,7 @@ import {
 /*
  * prisma
  */
-import { db } from "@spectral/db";
+import { db } from "~/db/src";
 
 /*
  * polar

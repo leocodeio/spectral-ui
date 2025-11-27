@@ -25,7 +25,7 @@ import { getAccountEditorMaps } from "~/server/services/creator/account-editors.
 import type {
   xDomainContribute,
   xDomainAccountEditorMap,
-} from "@spectral/types";
+} from "~/../../types";
 import { ArrowLeft, Filter, Grid3X3, List } from "lucide-react";
 
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {

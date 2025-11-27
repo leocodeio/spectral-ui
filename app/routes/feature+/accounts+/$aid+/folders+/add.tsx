@@ -22,7 +22,7 @@ import { getAccountEditorMaps } from "~/server/services/creator/account-editors.
 import { createFolderByCreator } from "~/server/services/creator/folder.server";
 import { getSession } from "~/server/services/auth/db.server";
 import { toast } from "~/hooks/use-toast";
-import { xDomainAccountEditorMap } from "@spectral/types";
+import { xDomainAccountEditorMap } from "~/../../types";
 
 // loader
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {

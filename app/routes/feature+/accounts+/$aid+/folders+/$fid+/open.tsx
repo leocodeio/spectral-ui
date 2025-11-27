@@ -36,7 +36,7 @@ import { Label } from "~/components/ui/label";
 import { Input } from "~/components/ui/input";
 import { toast } from "~/hooks/use-toast";
 import { useState, useCallback, useEffect } from "react";
-import { xDomainFolderItem, xDomainMedia } from "@spectral/types";
+import { xDomainFolderItem, xDomainMedia } from "~/../../types";
 
 const determineFileType = (file: File): string => {
   const mimeType = file.type.toLowerCase();

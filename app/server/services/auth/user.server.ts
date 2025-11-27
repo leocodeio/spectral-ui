@@ -1,5 +1,5 @@
-import { db } from "@spectral/db";
-import { xUser } from "@spectral/types";
+import { db } from "~/db/src";
+import { xUser } from "~/../../types";
 
 /*
  * update user

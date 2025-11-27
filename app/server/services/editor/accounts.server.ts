@@ -5,7 +5,7 @@
 import { ActionResult } from "~/types/action-result";
 import { makeApiRequest } from "../common/common.server";
 import { getAccessToken } from "../auth/db.server";
-import { xDomainAccountEditorMap } from "@spectral/types";
+import { xDomainAccountEditorMap } from "~/../../types";
 
 const editorAccountEndpoints = {
   getEditorLinkedAccountsByCreator: {

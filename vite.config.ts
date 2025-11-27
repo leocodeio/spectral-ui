@@ -23,6 +23,18 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        // Prevent Prisma from being treated as external
+        inlineDynamicImports: false,
+      },
+    },
+  },
+  ssr: {
+    noExternal: true, // Bundle everything for serverless
+    external: ["fsevents"], // Only exclude platform-specific modules
+  },
   /* shadcn */
   resolve: {
     alias: {

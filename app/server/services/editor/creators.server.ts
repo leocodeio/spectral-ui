@@ -1,7 +1,7 @@
 import { ActionResult } from "~/types/action-result";
 import { makeApiRequest } from "../common/common.server";
 import { getAccessToken } from "../auth/db.server";
-import { xDomainCreatorEditorMap } from "@spectral/types";
+import { xDomainCreatorEditorMap } from "~/../../types";
 
 const mapEndpoints = {
   acceptInvitation: {

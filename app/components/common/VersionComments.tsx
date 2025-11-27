@@ -5,7 +5,7 @@ import { Textarea } from "~/components/ui/textarea";
 import { Avatar, AvatarFallback } from "~/components/ui/avatar";
 import { MessageCircle, Send } from "lucide-react";
 import { useState } from "react";
-import type { xDomainVersionComment } from "@spectral/types";
+import type { xDomainVersionComment } from "~/../../types";
 import type { ActionResult } from "~/types/action-result";
 
 interface VersionCommentsProps {

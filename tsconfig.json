@@ -24,9 +24,7 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"],
-      "@/*": ["./app/*"],
-      "@spectral/types": ["./types/index.ts"],
-      "@spectral/db": ["app/db/src/index.ts"]
+      "@/*": ["./app/*"]
     },
 
     // Vite takes care of building everything, not tsc.

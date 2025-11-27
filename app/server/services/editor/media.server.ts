@@ -5,7 +5,7 @@
 import { ActionResult } from "~/types/action-result";
 import { makeApiRequest } from "../common/common.server";
 import { getAccessToken } from "../auth/db.server";
-import { xDomainMedia, xDomainFolderItem } from "@spectral/types";
+import { xDomainMedia, xDomainFolderItem } from "~/../../types";
 
 const editorMediaEndpoints = {
   getFolderItems: {

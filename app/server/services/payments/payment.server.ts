@@ -1,4 +1,4 @@
-import { db } from "@spectral/db";
+import { db } from "~/db/src";
 
 import { WebhookSubscriptionCanceledPayload } from "@polar-sh/sdk/models/components/webhooksubscriptioncanceledpayload.js";
 import { WebhookOrderPaidPayload } from "@polar-sh/sdk/models/components/webhookorderpaidpayload.js";

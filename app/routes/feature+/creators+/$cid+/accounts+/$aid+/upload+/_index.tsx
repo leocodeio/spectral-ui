@@ -14,7 +14,7 @@ import { Label } from "~/components/ui/label";
 import { ToggleGroup, ToggleGroupItem } from "~/components/ui/toggle-group";
 import { getSession } from "~/server/services/auth/db.server";
 import { getContributionsByAccount } from "~/server/services/editor/contribute.server";
-import type { xDomainContribute } from "@spectral/types";
+import type { xDomainContribute } from "~/../../types";
 import { ArrowLeft, PlusCircle, Grid3X3, List } from "lucide-react";
 
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {

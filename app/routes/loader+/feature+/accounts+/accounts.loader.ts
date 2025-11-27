@@ -3,7 +3,7 @@ import { Persona } from "../../../../models/persona";
 import { getSession } from "~/server/services/auth/db.server";
 import { getLinkedAccounts } from "~/server/services/creator/accounts.server";
 import { ActionResult } from "~/types/action-result";
-import { xDomainAccountEditorMap, xDomainYtCreator } from "@spectral/types";
+import { xDomainAccountEditorMap, xDomainYtCreator } from "~/../../types";
 
 export const ROUTE_PATH = "/feature/accounts" as const;
 

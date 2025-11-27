@@ -36,7 +36,7 @@ import { toast } from "~/hooks/use-toast";
 import type {
   xDomainContributionVersion,
   xContributionVersionStatusType,
-} from "@spectral/types";
+} from "~/../../types";
 
 interface VersionManagerProps {
   contributeId: string;

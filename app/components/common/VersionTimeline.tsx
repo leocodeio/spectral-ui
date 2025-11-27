@@ -11,7 +11,7 @@ import { Button } from "~/components/ui/button";
 import type {
   xDomainContributionVersion,
   xContributionVersionStatusType,
-} from "@spectral/types";
+} from "~/../../types";
 
 interface VersionTimelineProps {
   versions: xDomainContributionVersion[];

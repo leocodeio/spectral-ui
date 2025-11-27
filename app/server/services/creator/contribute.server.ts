@@ -11,7 +11,7 @@ import {
   xDomainContributionVersion,
   xContributionVersionStatusType,
   xDomainVersionComment,
-} from "@spectral/types";
+} from "~/../../types";
 
 const creatorContributeEndpoints = {
   getContributionsByAccount: {

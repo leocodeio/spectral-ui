@@ -8,7 +8,7 @@ import { PermissionCheck } from "~/utils/permissions/permission";
 
 // loader
 import { loader as contributeLoader } from "~/routes/loader+/feature+/contribute+/contribute.loader";
-import { xDomainAccountEditorMap } from "@spectral/types";
+import { xDomainAccountEditorMap } from "~/../../types";
 export const loader = contributeLoader;
 
 export default function Contribute() {

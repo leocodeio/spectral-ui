@@ -8,7 +8,7 @@ import { Label } from "~/components/ui/label";
 import { getSession } from "~/server/services/auth/db.server";
 import { getEditorLinkedAccountsByCreator } from "~/server/services/editor/accounts.server";
 import { PermissionCheck } from "~/utils/permissions/permission";
-import { xDomainAccountEditorMap } from "@spectral/types";
+import { xDomainAccountEditorMap } from "~/../../types";
 
 // loader
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {

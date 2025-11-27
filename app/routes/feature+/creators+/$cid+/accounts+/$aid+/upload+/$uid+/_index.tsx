@@ -16,7 +16,7 @@ import {
   getContributionById,
   getVersionsByContribution,
 } from "~/server/services/editor/contribute.server";
-import type { xDomainContribute } from "@spectral/types";
+import type { xDomainContribute } from "~/../../types";
 import { ArrowLeft, Eye, Clock, Calendar, PlusCircle } from "lucide-react";
 
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {

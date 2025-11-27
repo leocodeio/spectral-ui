@@ -17,7 +17,7 @@ import {
 } from "~/components/ui/select";
 import { Badge } from "~/components/ui/badge";
 import { Label } from "~/components/ui/label";
-import type { xDomainContributionVersion } from "@spectral/types";
+import type { xDomainContributionVersion } from "~/../../types";
 
 interface VersionComparisonProps {
   versions: xDomainContributionVersion[];

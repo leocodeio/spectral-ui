@@ -10,7 +10,7 @@ import {
   xDomainContribute,
   xDomainContributionVersion,
   xDomainVersionComment,
-} from "@spectral/types";
+} from "~/../../types";
 
 const editorContributeEndpoints = {
   createContribution: {

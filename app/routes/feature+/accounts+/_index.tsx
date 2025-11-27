@@ -12,7 +12,7 @@ import {
 import { Button } from "~/components/ui/button";
 import { ActionResult } from "~/types/action-result";
 import { toast } from "~/hooks/use-toast";
-import { xDomainYtCreator } from "@spectral/types";
+import { xDomainYtCreator } from "~/../../types";
 
 // loader
 import { loader as accountsLoader } from "~/routes/loader+/feature+/accounts+/accounts.loader";

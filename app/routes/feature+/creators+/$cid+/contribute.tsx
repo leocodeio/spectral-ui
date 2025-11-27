@@ -33,7 +33,7 @@ import {
   SelectValue,
 } from "~/components/ui/select";
 import { toast } from "~/hooks/use-toast";
-import { xDomainAccountEditorMap } from "@spectral/types";
+import { xDomainAccountEditorMap } from "~/../../types";
 
 // loader
 import { loader as contributeLoader } from "~/routes/loader+/feature+/contribute+/contribute.loader";

@@ -1,7 +1,7 @@
 import { ActionResult } from "~/types/action-result";
 import { getAccessToken } from "../auth/db.server";
 import { makeApiRequest } from "../common/common.server";
-import { xDomainAccountEditorMap, xDomainYtCreator } from "@spectral/types";
+import { xDomainAccountEditorMap, xDomainYtCreator } from "~/../../types";
 
 const creatorEndpoints = {
   getLinkedAccounts: { url: "/youtube/creator", method: "GET" },

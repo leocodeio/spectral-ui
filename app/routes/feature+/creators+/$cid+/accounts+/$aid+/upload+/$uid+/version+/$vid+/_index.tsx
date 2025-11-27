@@ -24,7 +24,7 @@ import { addVersionComment as creatorAddComment } from "~/server/services/creato
 import type {
   xDomainContributionVersion,
   xDomainVersionComment,
-} from "@spectral/types";
+} from "~/../../types";
 import { ArrowLeft, Info, Tags, Clock } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { ActionResult } from "~/types/action-result";

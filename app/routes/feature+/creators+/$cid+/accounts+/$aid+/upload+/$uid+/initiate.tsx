@@ -20,7 +20,7 @@ import { getSession } from "~/server/services/auth/db.server";
 import { toast } from "~/hooks/use-toast";
 import { createVersion } from "~/server/services/editor/contribute.server";
 import type { ActionResult } from "~/types/action-result";
-import type { xDomainContribute } from "@spectral/types";
+import type { xDomainContribute } from "~/../../types";
 import {
   ArrowLeft,
   Upload,

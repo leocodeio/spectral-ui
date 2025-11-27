@@ -3,7 +3,7 @@ import { Persona } from "../../../../models/persona";
 import { getSession } from "~/server/services/auth/db.server";
 import { getEditorLinkedAccountsByCreator } from "~/server/services/editor/accounts.server";
 import { getFoldersByEditor } from "~/server/services/editor/folder.server";
-import { xDomainAccountEditorMap, xDomainFolders } from "@spectral/types";
+import { xDomainAccountEditorMap, xDomainFolders } from "~/../../types";
 
 export const ROUTE_PATH = "/feature/contribute" as const;
 

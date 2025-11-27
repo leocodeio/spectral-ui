@@ -23,7 +23,7 @@ import {
 } from "~/server/services/creator/folder.server";
 import { getSession } from "~/server/services/auth/db.server";
 import { toast } from "~/hooks/use-toast";
-import { xDomainFolders } from "@spectral/types";
+import { xDomainFolders } from "~/../../types";
 
 // loader
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {

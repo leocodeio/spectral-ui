@@ -1,6 +1,6 @@
 import { json, LoaderFunctionArgs, redirect } from "@remix-run/node";
 import { getSession } from "~/server/services/auth/db.server";
-import { db } from "@spectral/db";
+import { db } from "~/db/src";
 
 /*
     This route is used to handle the success of the payment.
